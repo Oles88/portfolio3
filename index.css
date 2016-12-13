@@ -1,0 +1,355 @@
+.upper_level{
+    background-color: #EEE;
+    width: 100%;
+    height: 37px;
+    text-align: center;
+}    
+
+.toolbar li{
+    display: inline;
+    padding: 2px 10px 2px 9px;
+}
+.upper_level a {
+    color: #000; /* Цвет обычной ссылки */
+    padding: 8px 5px 8px 5px; /* Поля вокруг текста */
+    text-decoration: none;
+   }
+
+.upper_level a:hover {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #000; /* Цвет ссылки при наведении на нее курсора мыши */  
+    background: #A7A7A7; /* Цвет фона */
+}
+.next_level{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+}
+.next_level #line{
+    float: left;
+    margin: 13px 25px auto 5px;
+    width: auto;
+    height: 100%;
+}
+#line span{
+    float: right;
+}
+/* Пошукова форма */
+
+.cf:before, .cf:after{
+    content:"";
+    display:table;
+}
+ 
+.cf:after{
+    clear:both;
+}
+ 
+.cf{
+    zoom:1;
+}    
+
+/* Стили для контейнера формы */
+.form-wrapper {
+    width: 450px;
+    padding: 6px;
+    margin: 0px auto 0px auto;
+    
+    background: rgb(151, 201, 29);
+    border-radius: 10px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+}
+ 
+/* Стили поля ввода текста */
+ 
+.form-wrapper input {
+    width: 330px;
+    height: 20px;
+    padding: 10px 5px;
+    float: left;    
+    font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border: 0;
+    background: #eee;
+    border-radius: 3px 0 0 3px;      
+}
+ 
+.form-wrapper input:focus {
+    outline: 0;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+}
+ 
+.form-wrapper input::-webkit-input-placeholder {
+   color: #999;
+   font-weight: normal;
+   font-style: italic;
+}
+ 
+.form-wrapper input:-moz-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+ 
+.form-wrapper input:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}    
+ 
+/* Кнопка отправки формы */
+.form-wrapper button {
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 110px;
+    font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: #fff;
+    text-transform: uppercase;
+    background: #b1d753;
+    border-radius: 0 3px 3px 0;      
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}   
+   
+.form-wrapper button:hover{     
+    background: #e54040;
+}   
+   
+.form-wrapper button:active,
+.form-wrapper button:focus{   
+    background: #c42f2f;
+    outline: 0;   
+}
+ 
+.form-wrapper button:before { /* стрелка влево */
+    content: '';
+    position: absolute;
+    border-width: 8px 8px 8px 0;
+    border-style: solid solid solid none;
+    border-color: transparent #b1d753;
+    top: 12px;
+    left: -6px;
+}
+ 
+.form-wrapper button:hover:before{
+    border-right-color: #e54040;
+}
+ 
+.form-wrapper button:focus:before,
+.form-wrapper button:active:before{
+        border-right-color: #c42f2f;
+}      
+ 
+.form-wrapper button::-moz-focus-inner { /* Удаляем дополнительное пространство рядом с кнопкой в Mozilla Firefox */
+    border: 0;
+    padding: 0;
+}    
+/* Пошукова форма */
+
+/* Nav */
+nav {
+    width: 69%;
+    margin: 0 auto;
+}
+#navbar ul{
+        display: none;
+        border: 2px solid #75ab15;
+        position: absolute;
+        top: 100%;
+       
+     
+      }
+#navbar li:hover ul {
+    display: block;
+}
+#navbar, #navbar ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    z-index: 2;
+    
+}
+#navbar {
+    height: 70px;
+    width: 100%;
+}
+#navbar  .bar {
+    float: left;
+    position: relative;
+    height: 84%;
+    width: 124px;
+    border: 1px solid #c0c9b0;
+    border-radius: 5px;
+    background-color: #c0c9b04d;
+}
+#navbar li a {
+    display: block;
+    padding: 6px 6px 6px 0px;
+    width: 98%;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    font: 14px Arial, Helvetica, sans-serif;
+}
+#navbar li ul li a{
+    font-family: normal;
+    padding: 5px 5px 4px 9px;
+    text-align: left;
+    width: 95%;
+}      
+#navbar ul li { 
+    float: none;
+    width: 254px;
+    padding: 2px 0px 2px 12px;
+    background-color: #fff;
+    
+}
+ #navbar li ul li a:hover {
+    color: #567b16; /* Цвет ссылки при наведении на нее курсора мыши */  
+}
+#navbar li:hover { background-color: #75ab15; }
+
+      
+/* Nav */
+#cler{
+    clear: both;
+}
+/*Swiper autoplay*/
+article{
+    width: 69%;
+    margin: 0 auto;
+}   
+#my-swiper-up{
+    width: 559px;
+    float: left;
+    padding: 8px 45px 8px 8px;
+}
+#my-swiper-up .swiper-container {
+    width: 554px;
+    height: 179px;
+}
+#swiper_center{
+    width: 273px;
+    float: left;
+    padding: 8px 45px 8px 8px;
+}
+#my-swiper-down{
+    width: 274px;
+    float: left;
+    padding: 8px 8px 8px 8px;
+}
+#my-swiper-down .swiper-container {
+    width: 271px;
+    height: 178px;
+}
+
+/*Swiper autoplay*/
+/*cele_textupper*/
+#cele_textupper{
+    width: 92%;
+    
+    border: 2px solid #75ab15;
+    border-radius: 5px;
+    padding-bottom: 83px;
+}
+#cele_textupper .textupper_up{
+    font: 18px/22px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    width: 158px;
+    float: left;
+    padding-left: 25px;
+}
+#cele_textupper .textupper_down{
+     font: bold 23px 'lucida sans', 'trebuchet MS', 'Tahoma';
+}
+#cele_textupper img{
+    float: left;
+    padding-left: 15px;
+}
+/*cele_textupper*/
+/*product*/
+.product{
+    margin: 0 auto;
+    width: 75%;
+}
+.product a {
+    text-decoration: none;
+    color: #000;
+}
+.product a:hover {
+    color: #567b16; 
+}
+.product ul{
+    list-style-type: none;
+    padding:0px 0px 0px 26px;
+}
+.product h2{
+    text-align: center;
+    padding:0px 5px 5px 16px;
+}
+.holder{
+    position:relative;   
+    width:300px;
+    height:326px;
+    margin: 10px 10px 10px 97px;
+    border: 2px solid #75ab15;
+    border-radius: 5px;
+    float: left;
+    
+    
+}
+.block{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0px;
+    background:rgba(255,255,255, 0.8);
+    padding:0px;
+    display:none;
+    
+}
+.holder:hover .block{
+    display:block;
+}
+#switching_equipment{
+    background-image: url(img/products_1.jpg);
+    background-repeat: no-repeat;
+    
+}
+#cables_and_wires{
+     background-image: url(img/products_2.jpg);
+     background-repeat: no-repeat;
+}
+#lighting{
+     background-image: url(img/products_3.jpg);
+     background-repeat: no-repeat;
+}
+#mounting_products{
+     background-image: url(img/products_4.jpg);
+     background-repeat: no-repeat;
+}
+#equipment_and_controls{
+     background-image: url(img/products_5.jpg);
+     background-repeat: no-repeat;
+}
+#power_and_stabilization{
+     background-image: url(img/products_6.jpg);
+     background-repeat: no-repeat;
+}
+#home_installation{
+     background-image: url(img/products_7.jpg);
+     background-repeat: no-repeat;
+}
+#panel_equipment{
+     background-image: url(img/products_8.jpg);
+     background-repeat: no-repeat;
+}
+#other{
+     background-image: url(img/products_9.jpg);
+     background-repeat: no-repeat;
+}
+/*product*/
