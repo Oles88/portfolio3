@@ -212,6 +212,7 @@ nav {
     color: #567b16; /* Цвет ссылки при наведении на нее курсора мыши */  
 }
 #navbar li:hover { background-color: #75ab15; }
+#navbar li ul li:hover { background-color: #fff; }
 
       
 /* Nav */
@@ -353,3 +354,166 @@ article{
      background-repeat: no-repeat;
 }
 /*product*/
+#line_text{
+    font: 26px/0px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    width: 67%;
+    margin: 24px auto 0px auto;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #75ab15;
+    padding-bottom: 17px;
+}
+#line_text_big{
+    font: 26px/0px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    width: 100%;
+    margin: 9px auto 0px auto;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #75ab15;
+    padding-bottom: 17px;
+}
+.certificates{
+    width: 65%;
+    margin: 0 auto;
+    
+}
+.certificates div {
+    float: left;
+    margin: 10px 22px 10px 22px;
+    padding: 20px;
+    
+}
+.certificates div:hover {
+  border: 2px solid #75ab15;
+  box-shadow: 4px 4px 7px #75ab15;
+  }
+  
+.information{
+    width: 67%;
+    margin: 0 auto;
+}  
+.information li{
+    margin-left: 16px;
+}
+footer{
+    width: 70%;
+    margin: 0 auto;
+}
+ .elements{
+     float: left;
+     padding: 8px 40px 8px 40px;
+     font: bold 17px/19px 'lucida sans', 'trebuchet MS', 'Tahoma';
+ }
+ .elements ul{
+    list-style-type: none;
+ }
+  .elements ul li a{
+    color: #000;
+    text-decoration: none;
+  }
+ .elements ul li  a:hover {
+    color: #567b16;  
+    
+   }
+.elements .pictures{
+     float: left;
+ }
+
+ .form .form-wrapper {
+    width: 235px;
+    padding: 4px;
+    margin: 0px auto 0px auto;
+    
+    background: rgb(151, 201, 29);
+    border-radius: 10px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+}
+ 
+/* Стили поля ввода текста */
+ 
+ .form .form-wrapper input {
+    width: 115px;
+    height: 20px;
+    padding: 10px 5px;
+    float: left;    
+    font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border: 0;
+    background: #eee;
+    border-radius: 3px 0 0 3px;      
+}
+ 
+ .form .form-wrapper input:focus {
+    outline: 0;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+}
+ 
+ .form .form-wrapper input::-webkit-input-placeholder {
+   color: #999;
+   font-weight: normal;
+   font-style: italic;
+}
+ 
+ .form .form-wrapper input:-moz-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+ 
+ .form .form-wrapper input:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}    
+ 
+/* Кнопка отправки формы */
+ .form .form-wrapper button {
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 110px;
+    font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: #fff;
+    text-transform: uppercase;
+    background: #b1d753;
+    border-radius: 0 3px 3px 0;      
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}   
+   
+ .form .form-wrapper button:hover{     
+    background: #e54040;
+}   
+   
+ .form .form-wrapper button:active,
+ .form .form-wrapper button:focus{   
+    background: #c42f2f;
+    outline: 0;   
+}
+ 
+ .form .form-wrapper button:before { /* стрелка влево */
+    content: '';
+    position: absolute;
+    border-width: 8px 8px 8px 0;
+    border-style: solid solid solid none;
+    border-color: transparent #b1d753;
+    top: 12px;
+    left: -6px;
+}
+ 
+ .form .form-wrapper button:hover:before{
+    border-right-color: #e54040;
+}
+ 
+ .form .form-wrapper button:focus:before,
+ .form .form-wrapper button:active:before{
+        border-right-color: #c42f2f;
+}      
+ 
+ .form .form-wrapper button::-moz-focus-inner { /* Удаляем дополнительное пространство рядом с кнопкой в Mozilla Firefox */
+    border: 0;
+    padding: 0;
+}    
